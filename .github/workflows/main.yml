@@ -47,7 +47,7 @@ jobs:
           name: gleam-build
           path: build/
 
-      - uses: denoland/deployctl@v1
+      - uses: denoland/deployctl@kayla-test
         with:
           project: nakai
           entrypoint: ./index.js
