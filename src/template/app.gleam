@@ -8,7 +8,7 @@ pub fn home() {
       html.head(
         [],
         [
-          html.title("Nakai ✨"),
+          html.title("Nakai. ✨"),
           html.Element(
             "meta",
             [
@@ -21,7 +21,7 @@ pub fn home() {
             "meta",
             [
               attrs.Attr("property", "og:title"),
-              attrs.Attr("content", "Nakai ✨"),
+              attrs.Attr("content", "Nakai. ✨"),
             ],
             [],
           ),
