@@ -49,5 +49,5 @@ jobs:
 
       - uses: denoland/deployctl@v1
         with:
-          project: nakai-template
+          project: nakai
           entrypoint: ./index.js
