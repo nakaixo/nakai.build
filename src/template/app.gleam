@@ -120,6 +120,7 @@ pub fn home() {
               width: 100vw;
               height: 50vh;
               object-fit: cover;
+              user-select: none;
               ",
             ),
             attrs.src("https://cdn.mckayla.cloud/nakai/Nakai-Background.svg"),
@@ -136,6 +137,7 @@ pub fn home() {
                 width: 100vw;
                 height: 50vh;
                 object-fit: cover;
+                user-select: none;
                 background-image: linear-gradient(
                   0deg,
                   rgb(255 255 255 / 0.9) 0%,
