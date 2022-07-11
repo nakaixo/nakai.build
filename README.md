@@ -1,7 +1,3 @@
-# deno_deploy_template
+# nakai.build
 
-Template for deploying a Nakai app on Deno Deploy
-
-## Quick start
-
-Clone this repo :^)
+Source code for our website ✨
