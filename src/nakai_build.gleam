@@ -3,7 +3,9 @@ import gleam/path
 import gleam/string
 import gleam/uri
 import nakai
-import pages/app
+import pages/docs
+import pages/home
+import pages/not_found
 
 pub fn main(url: String) {
   assert Ok(parsed_url) = uri.parse(url)
@@ -13,9 +15,9 @@ pub fn main(url: String) {
   io.println(string.append("get: ", path.to_string(route)))
 
   case route_segments {
-    [] -> app.home()
-    ["docs"] -> app.docs()
-    _ -> app.not_found()
+    [] -> home.page()
+    ["docs"] -> docs.page()
+    _ -> not_found.page()
   }
   |> nakai.render
 }

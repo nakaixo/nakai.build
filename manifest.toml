@@ -4,7 +4,7 @@
 packages = [
   { name = "gleam_stdlib", version = "0.22.1", build_tools = ["gleam"], requirements = [], otp_app = "gleam_stdlib", source = "hex", outer_checksum = "9C6C66EDAAFD097267089565488DEDFC111A0497DE9CB2C42248E26330CC48E9" },
   { name = "gleeunit", version = "0.6.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "gleeunit", source = "hex", outer_checksum = "5BF486C3E135B7F5ED8C054925FC48E5B2C79016A39F416FD8CF2E860520EE55" },
-  { name = "nakai", version = "0.3.1", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "nakai", source = "hex", outer_checksum = "7E4C17403E369F83FCD2653616D9BFC9388FB48EFEE1D0A48B951B9AA465C19A" },
+  { name = "nakai", version = "0.3.2", build_tools = ["gleam"], requirements = ["gleam_stdlib"], otp_app = "nakai", source = "hex", outer_checksum = "3515F397DAC5F326195957B73E511C60D5C04938B518D3E49F585F4B1ED9742C" },
 ]
 
 [requirements]
