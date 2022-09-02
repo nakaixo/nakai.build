@@ -56,7 +56,9 @@ pub fn document(children: List(Node(a))) {
       [
         html.img([
           attrs.style(cover_image_style),
-          attrs.src("https://cdn.mckayla.cloud/nakai/Nakai-Background.svg"),
+          attrs.src(
+            "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/Nakai-Background.svg",
+          ),
         ]),
         html.div([attrs.style(cover_gradient_style)], []),
         html.div(
@@ -88,14 +90,19 @@ fn metadata() {
     ),
     og_meta("type", "website"),
     og_meta("url", "https://nakai.build"),
-    og_meta("image", "https://cdn.mckayla.cloud/nakai/Nakai-Banner@2x.webp"),
+    og_meta(
+      "image",
+      "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/Nakai-Banner@2x.webp",
+    ),
     og_meta(
       "image:secure_url",
-      "https://cdn.mckayla.cloud/nakai/Nakai-Banner@2x.webp",
+      "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/Nakai-Banner@2x.webp",
     ),
     html.link([
       attrs.rel("shortcut icon"),
-      attrs.href("https://cdn.mckayla.cloud/nakai/favicon.ico"),
+      attrs.href(
+        "https://cdn.mckayla.cloud/-/f648cf5b6eee40b2982410757909716e/favicon.ico",
+      ),
     ]),
     html.link([
       attrs.rel("preconnect"),
