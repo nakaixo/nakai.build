@@ -16,7 +16,11 @@ pub fn page() {
       "Please do!",
       [attrs.href("https://github.com/nakaibuild/nakai")],
     ),
-    #("Looking for our documentation?", "Over here!", [attrs.href("/docs")]),
+    #(
+      "Looking for our documentation?",
+      "Over here!",
+      [attrs.href("https://hexdocs.pm/nakai/")],
+    ),
   ]
 
   let make_prose = fn(details) {
