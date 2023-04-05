@@ -2,7 +2,7 @@ name = "nakai_build"
 version = "1.0.0"
 licences = ["MIT"]
 description = "Our website (written using Nakai) ✨"
-repository = { type = "github", user = "nakaibuild", repo = "nakai.build" }
+repository = { type = "github", user = "nakaixo", repo = "nakai.build" }
 
 target = "javascript"
 

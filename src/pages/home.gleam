@@ -9,12 +9,12 @@ pub fn page() {
     #(
       "Run into a bug?",
       "Report it!",
-      [attrs.href("https://github.com/nakaibuild/nakai/issues")],
+      [attrs.href("https://github.com/nakaixo/nakai/issues")],
     ),
     #(
       "Want to contribute?",
       "Please do!",
-      [attrs.href("https://github.com/nakaibuild/nakai")],
+      [attrs.href("https://github.com/nakaixo/nakai")],
     ),
     #(
       "Looking for our documentation?",
