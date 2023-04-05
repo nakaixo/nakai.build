@@ -1,10 +1,16 @@
 import { serve } from "std/http/server.ts";
-import { main } from "./build/dev/javascript/nakai_build/dist/nakai_build.mjs";
 
-function handler(req) {
-	return new Response(main(req.url), {
-		headers: { "content-type": "text/html; charset=utf-8" },
-	});
+function handler() {
+	return new Response(
+		'Moved to <a href="https://nakaixo.github.io">https://nakaixo.github.io</a>',
+		{
+			status: 301,
+			headers: {
+				"content-type": "text/html; charset=utf-8",
+				location: "https://nakaixo.github.io",
+			},
+		},
+	);
 }
 
 await serve(handler, {

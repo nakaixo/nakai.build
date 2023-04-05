@@ -1,3 +1,3 @@
 # nakai.build
 
-Source code for our website ✨
+Just redirects to [https://nakaixo.github.io](https://github.com/nakaixo/nakaixo.github.io)
